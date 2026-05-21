@@ -11,7 +11,7 @@ export default function AboutPage() {
         </Link>
 
         <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-12 font-['Instrument_Serif',serif]">
-          About Mindguide
+          About Mind Guide
         </h1>
 
         <div className="prose prose-lg text-slate-600">
@@ -21,7 +21,7 @@ export default function AboutPage() {
 
           <h2 className="text-2xl font-bold text-slate-900 mt-12 mb-4">Our Philosophy</h2>
           <p className="mb-6">
-            Mindguide exists because we believe healing is not just about managing symptoms — it's about understanding yourself deeply. We combine counselling with inner work practices like meditation, breath awareness, and emotional release to create real, lasting change.
+            Mind Guide exists because we believe healing is not just about managing symptoms — it's about understanding yourself deeply. We combine counselling with inner work practices like meditation, breath awareness, and emotional release to create real, lasting change.
           </p>
           <p className="mb-8">
             Most therapy stops at talking. We go further — into the body, the breath, and the patterns that run beneath conscious thought. This is holistic emotional wellness: treating the whole person, not just the problem.

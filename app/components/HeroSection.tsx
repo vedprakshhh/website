@@ -9,7 +9,7 @@ export default function HeroSection() {
       <nav className="relative z-20 px-6 py-6 max-w-7xl mx-auto w-full">
         <div className="flex justify-between items-center bg-white/60 backdrop-blur-md rounded-full px-8 py-4 shadow-sm border border-white/40">
           <div className="flex items-center gap-2">
-            <span className="text-slate-900 font-bold text-xl tracking-tight">Mindguide</span>
+            <span className="text-slate-900 font-bold text-xl tracking-tight">Mind Guide</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
             <Link href="/" className="text-slate-600 hover:text-sky-700 text-sm font-medium transition-colors">Home</Link>
@@ -28,7 +28,7 @@ export default function HeroSection() {
       {/* Hero Content */}
       <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-6 py-12 text-center -translate-y-[10%]">
         <h1 className="text-6xl md:text-7xl lg:text-8xl text-slate-900 tracking-tight font-['Instrument_Serif',serif] mb-6">
-          Mindguide
+          Mind Guide
         </h1>
         <p className="text-2xl md:text-3xl text-sky-800 font-['Instrument_Serif',serif] mb-10 italic">
           Feel. Heal. Become.
