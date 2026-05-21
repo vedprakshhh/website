@@ -13,7 +13,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Mind Guide",
+  title: "Mindguide",
   description: "Holistic emotional wellness & self-growth — counselling, inner work, and guided transformation.",
 };
 

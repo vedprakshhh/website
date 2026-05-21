@@ -50,7 +50,7 @@ export default function ContactPage() {
                                     <div>
                                         <h3 className="font-semibold text-slate-900">Email</h3>
                                         <p className="text-slate-600 text-sm mt-1">For general inquiries and support.</p>
-                                        <a href="mailto:hello@mindguide.com" className="text-sky-500 font-medium mt-1 inline-block hover:underline">hello@mindguide.com</a>
+                                        <a href="mailto:mindguide.fit@gmail.com" className="text-sky-500 font-medium mt-1 inline-block hover:underline">mindguide.fit@gmail.com</a>
                                     </div>
                                 </div>
                                 
@@ -61,7 +61,7 @@ export default function ContactPage() {
                                     <div>
                                         <h3 className="font-semibold text-slate-900">Phone</h3>
                                         <p className="text-slate-600 text-sm mt-1">Mon-Fri from 9am to 6pm.</p>
-                                        <a href="tel:+910000000000" className="text-sky-500 font-medium mt-1 inline-block hover:underline">+91 00000 00000</a>
+                                        <a href="tel:+919405444888" className="text-sky-500 font-medium mt-1 inline-block hover:underline">+91 94054 44888</a>
                                     </div>
                                 </div>
 
