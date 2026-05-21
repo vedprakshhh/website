@@ -6,12 +6,12 @@ const counsellors = [
   {
     name: "Gayathri Gurrapu",
     specialization: "Holistic Emotional Wellness & Self-Growth Practitioner",
-    photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop", // Placeholder image
+    photo: "/gayathri.jpeg",
   },
   {
     name: "Madurya Pathakoti",
     specialization: "Child Counselling & Behavioural Therapy",
-    photo: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop", // Placeholder image
+    photo: "/madhurya.jpeg",
   }
 ];
 

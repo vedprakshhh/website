@@ -19,7 +19,7 @@ export default function CounsellorsPage() {
           {/* Gayathri Profile */}
           <div className="flex flex-col md:flex-row gap-12 items-start bg-white p-8 md:p-12 rounded-3xl border border-slate-200">
             <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shrink-0 border-4 border-slate-50 shadow-md">
-              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop" alt="Gayathri Gurrapu" className="w-full h-full object-cover" />
+              <img src="/gayathri.jpeg" alt="Gayathri Gurrapu" className="w-full h-full object-cover" />
             </div>
             
             <div className="flex-1">
@@ -65,7 +65,7 @@ export default function CounsellorsPage() {
           {/* Madurya Profile */}
           <div className="flex flex-col md:flex-row gap-12 items-start bg-white p-8 md:p-12 rounded-3xl border border-slate-200">
             <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shrink-0 border-4 border-slate-50 shadow-md">
-              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop" alt="Madurya Pathakoti" className="w-full h-full object-cover" />
+              <img src="/madhurya.jpeg" alt="Madurya Pathakoti" className="w-full h-full object-cover" />
             </div>
             
             <div className="flex-1">
