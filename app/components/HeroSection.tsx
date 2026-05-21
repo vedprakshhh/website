@@ -31,11 +31,11 @@ export default function HeroSection() {
           Mindguide
         </h1>
         <p className="text-2xl md:text-3xl text-teal-800 font-['Instrument_Serif',serif] mb-10 italic">
-          See Clearly. Feel Deeply. Grow Meaningfully.
+          Feel. Heal. Become.
         </p>
         
         <p className="text-slate-600 text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
-          Mindguide is a psychology-based platform dedicated to counselling, research, and emotional well-being. We provide a safe and understanding space where individuals can express themselves freely and gain clarity in their thoughts and lives.
+          Holistic emotional wellness and self-growth — a space where counselling meets inner work. Not just talk therapy, but guided transformation for the heart and mind.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center gap-4">

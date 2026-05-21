@@ -12,7 +12,7 @@ export default function AboutSection() {
         </h2>
         
         <p className="text-slate-600 text-lg md:text-xl leading-relaxed mb-8">
-          Mindguide is a space where thoughts are understood with clarity and expressed without fear. We combine counselling and research to support emotional and intellectual growth.
+          Mindguide is a space for holistic emotional wellness and self-growth — where counselling meets inner work. Not just talk therapy, but guided transformation for the heart and mind.
         </p>
         
         <Link href="/about" className="inline-flex items-center gap-2 text-teal-600 font-medium hover:text-teal-800 transition-colors">

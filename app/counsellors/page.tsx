@@ -13,7 +13,7 @@ export default function CounsellorsPage() {
         <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6 font-['Instrument_Serif',serif]">
           Meet the Counsellors
         </h1>
-        <p className="text-xl text-slate-600 mb-16">Experienced professionals dedicated to your well-being.</p>
+        <p className="text-xl text-slate-600 mb-16">Dedicated practitioners here to support your journey inward.</p>
 
         <div className="space-y-24">
           {/* Gayathri Profile */}
@@ -25,24 +25,27 @@ export default function CounsellorsPage() {
             <div className="flex-1">
               <h2 className="text-3xl font-bold text-slate-900 mb-2">Gayathri Gurrapu</h2>
               <p className="text-teal-700 font-medium mb-6 flex items-center gap-2">
-                <GraduationCap size={18} /> MSc Psychology | Counsellor & Researcher
+                <GraduationCap size={18} /> MSc Psychology | Holistic Emotional Wellness Practitioner
               </p>
               
               <div className="prose prose-slate mb-6">
                 <p>
-                  Gayathri Gurrapu is a psychology professional with a strong academic background in BA Psychology, PGD in Counselling Psychology, and MSc Psychology. She specializes in student counselling, teen counselling, and life coaching.
+                  Gayathri Gurrapu is a holistic emotional wellness and self-growth practitioner with a strong academic foundation in BA Psychology, PGD in Counselling Psychology, and MSc Psychology. Her approach goes beyond traditional talk therapy — she integrates counselling with meditation, breath awareness, inner engineering concepts, and emotional release techniques.
                 </p>
                 <p>
-                  Her counselling style is friendly yet structured, helping clients feel comfortable while also guiding them with clarity and direction.
+                  Her style is warm yet grounded — creating a space where clients feel safe to be vulnerable while also being guided toward real transformation. She believes the best therapy doesn't just help you cope; it helps you understand yourself.
                 </p>
               </div>
 
               <div className="mb-6">
                 <h3 className="font-semibold text-slate-900 mb-2">Primary Focus Areas:</h3>
                 <ul className="list-disc pl-5 text-slate-600 space-y-1">
-                  <li>Students facing academic stress</li>
-                  <li>Teenagers dealing with emotional challenges</li>
-                  <li>Women navigating personal and social pressures</li>
+                  <li>Emotional support & venting — a space to be heard</li>
+                  <li>Personal counselling & guided self-reflection</li>
+                  <li>Deep healing — combining therapy with inner work</li>
+                  <li>Self-discovery & life clarity</li>
+                  <li>Teen & student emotional wellness</li>
+                  <li>Relationship counselling</li>
                 </ul>
               </div>
 

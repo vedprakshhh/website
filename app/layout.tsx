@@ -14,7 +14,7 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Mindguide",
-  description: "A psychology-based platform dedicated to counselling, research, and emotional well-being.",
+  description: "Holistic emotional wellness & self-growth — counselling, inner work, and guided transformation.",
 };
 
 export default function RootLayout({

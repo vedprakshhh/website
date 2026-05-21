@@ -4,9 +4,10 @@ import { CheckCircle2 } from 'lucide-react';
 
 const reasons = [
   "Safe & confidential space",
-  "Experienced professionals",
-  "Research-based approach",
-  "Anonymous support available"
+  "Holistic multi-modal approach",
+  "Experienced practitioner",
+  "Anonymous support available",
+  "Affordable — starting at ₹499"
 ];
 
 export default function WhyChooseUsSection() {

@@ -16,7 +16,7 @@ export default function PhilosophySection() {
           transition={{ duration: 0.8 }}
           className="text-5xl md:text-7xl lg:text-8xl text-white tracking-tight mb-16 md:mb-24 font-['Instrument_Serif',serif]"
         >
-          Counselling <em className="italic text-white/40">x</em> Research
+          Counselling <em className="italic text-white/40">x</em> Inner Work
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
@@ -53,9 +53,9 @@ export default function PhilosophySection() {
             <div className="w-full h-px bg-white/10"></div>
             
             <div>
-              <p className="text-white/40 text-xs tracking-widest uppercase mb-4">Evidence-Based Methods</p>
+              <p className="text-white/40 text-xs tracking-widest uppercase mb-4">Multi-Modal Integration</p>
               <p className="text-white/70 text-base md:text-lg leading-relaxed">
-                We believe the best therapeutic work emerges when compassion meets scientific rigor. Our process uses proven methodologies like CBT to translate insights into lasting mental wellness.
+                We believe the deepest healing happens when multiple approaches work together. We blend counselling with meditation, breath awareness, inner engineering, and emotional release — translating insight into lasting transformation.
               </p>
             </div>
           </motion.div>

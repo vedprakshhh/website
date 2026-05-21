@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
         <div>
           <Link href="/" className="text-white font-bold text-xl tracking-tight mb-2 block">Mindguide</Link>
-          <p className="text-sm">See Clearly. Feel Deeply. Grow Meaningfully.</p>
+          <p className="text-sm">Feel. Heal. Become.</p>
         </div>
         
         <div className="flex items-center gap-6">

@@ -1,6 +1,6 @@
 "use client";
 
-import { MessageCircle, FileText, BookOpen } from 'lucide-react';
+import { Heart, Sparkles, Compass } from 'lucide-react';
 
 export default function WhatWeDoSection() {
   return (
@@ -9,31 +9,31 @@ export default function WhatWeDoSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
           <div className="flex flex-col items-center">
             <div className="bg-teal-50 text-teal-600 p-6 rounded-full mb-6">
-              <MessageCircle size={32} />
+              <Heart size={32} />
             </div>
-            <h3 className="text-xl font-bold text-slate-900 mb-2">Counselling</h3>
-            <p className="text-slate-500 text-sm">Professional support for students, teens, adults, and children.</p>
+            <h3 className="text-xl font-bold text-slate-900 mb-2">Emotional Support</h3>
+            <p className="text-slate-500 text-sm">A safe space to be heard. For loneliness, overthinking, heartbreak, and burnout.</p>
           </div>
           
           <div className="flex flex-col items-center">
             <div className="bg-teal-50 text-teal-600 p-6 rounded-full mb-6">
-              <FileText size={32} />
+              <Sparkles size={32} />
             </div>
-            <h3 className="text-xl font-bold text-slate-900 mb-2">Research Guidance</h3>
-            <p className="text-slate-500 text-sm">Academic support, data collection, and paper writing assistance.</p>
+            <h3 className="text-xl font-bold text-slate-900 mb-2">Inner Work & Healing</h3>
+            <p className="text-slate-500 text-sm">Counselling meets meditation, breath awareness, and emotional release — guided transformation.</p>
           </div>
           
           <div className="flex flex-col items-center">
             <div className="bg-teal-50 text-teal-600 p-6 rounded-full mb-6">
-              <BookOpen size={32} />
+              <Compass size={32} />
             </div>
-            <h3 className="text-xl font-bold text-slate-900 mb-2">Articles & Insights</h3>
-            <p className="text-slate-500 text-sm">Knowledge and awareness content on mental health and psychology.</p>
+            <h3 className="text-xl font-bold text-slate-900 mb-2">Self-Discovery</h3>
+            <p className="text-slate-500 text-sm">Understanding yourself — purpose, identity, self-worth, and the patterns that shape your life.</p>
           </div>
         </div>
         
         <p className="text-2xl text-slate-700 font-medium italic font-['Instrument_Serif',serif]">
-          Supporting minds with clarity, empathy, and evidence.
+          Not just coping. Transformation.
         </p>
       </div>
     </section>

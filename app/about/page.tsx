@@ -16,30 +16,39 @@ export default function AboutPage() {
 
         <div className="prose prose-lg text-slate-600">
           <p className="text-2xl text-teal-800 font-['Instrument_Serif',serif] italic mb-8">
-            Mindguide was built on a simple yet powerful idea—every thought deserves clarity, and every voice deserves to be heard.
+            Not just coping. Transformation.
           </p>
 
-          <h2 className="text-2xl font-bold text-slate-900 mt-12 mb-4">Our Story</h2>
+          <h2 className="text-2xl font-bold text-slate-900 mt-12 mb-4">Our Philosophy</h2>
           <p className="mb-6">
-            The name "Mindguide" represents our commitment to providing clarity, transparency, and insight (like a guide), while emphasizing expression, documentation, and research (understanding the mind). Together, it reflects our belief that every experience should be understood with clear guidance.
+            Mindguide exists because we believe healing is not just about managing symptoms — it's about understanding yourself deeply. We combine counselling with inner work practices like meditation, breath awareness, and emotional release to create real, lasting change.
           </p>
           <p className="mb-8">
-            Our platform is designed for individuals seeking counselling, students needing academic & emotional guidance, and researchers looking for support and collaboration. We also aim to publish research, articles, and insights that contribute meaningfully to the field of psychology.
+            Most therapy stops at talking. We go further — into the body, the breath, and the patterns that run beneath conscious thought. This is holistic emotional wellness: treating the whole person, not just the problem.
           </p>
 
-          <h2 className="text-2xl font-bold text-slate-900 mt-12 mb-4">Our Mission</h2>
-          <p className="mb-8">
-            To provide a safe, empathetic, and non-judgmental space for individuals who struggle to express themselves, helping them open up, understand their emotions, and navigate life with clarity.
-          </p>
-
-          <h2 className="text-2xl font-bold text-slate-900 mt-12 mb-4">Our Vision</h2>
-          <p className="mb-8">
-            To build a platform where mental health support and psychological research go hand in hand, making both accessible, reliable, and impactful.
-          </p>
-          
           <h2 className="text-2xl font-bold text-slate-900 mt-12 mb-4">Our Approach</h2>
+          <p className="mb-4">
+            We offer tiered support because everyone comes at a different stage:
+          </p>
+          <ul className="list-disc pl-5 mb-8 space-y-2">
+            <li><strong>Emotional Support</strong> — for when you just need to be heard</li>
+            <li><strong>Personal Counselling</strong> — deeper therapeutic work with tools and reflection</li>
+            <li><strong>Deep Healing / Inner Work</strong> — premium transformation combining multiple modalities</li>
+            <li><strong>Self-Discovery</strong> — for seekers who want to understand themselves, not just fix something</li>
+          </ul>
+
+          <h2 className="text-2xl font-bold text-slate-900 mt-12 mb-4">What Makes Us Different</h2>
+          <p className="mb-4">
+            We don't believe in one-size-fits-all therapy. Every session is tailored. More importantly, we believe transformation is accessible — our pricing starts at ₹499 so that anyone can take the first step.
+          </p>
           <p className="mb-8">
-            We believe the best therapeutic work emerges when compassion meets scientific rigor. Our process uses proven methodologies like CBT to translate insights into lasting mental wellness.
+            Whether you're dealing with heartbreak, burnout, anxiety, relationship struggles, or simply feeling lost — there's a space here for you. No judgment. No labels. Just presence and guidance.
+          </p>
+
+          <h2 className="text-2xl font-bold text-slate-900 mt-12 mb-4">Our Founder</h2>
+          <p className="mb-8">
+            Gayathri Gurrapu is a holistic emotional wellness practitioner with an MSc in Psychology, a PGD in Counselling Psychology, and years of hands-on experience. Her work spans counselling, meditation, inner engineering, and research. She brings both scientific rigor and deep compassion to every session — creating a space where clients feel safe to explore, heal, and grow.
           </p>
         </div>
       </main>

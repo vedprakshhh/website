@@ -5,7 +5,7 @@ import Link from 'next/link';
 const counsellors = [
   {
     name: "Gayathri Gurrapu",
-    specialization: "Student, Teen & Women Counselling",
+    specialization: "Holistic Emotional Wellness & Self-Growth Practitioner",
     photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop", // Placeholder image
   },
   {
@@ -21,7 +21,7 @@ export default function CounsellorsSection() {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl text-slate-900 tracking-tight font-['Instrument_Serif',serif] mb-4">Meet the Counsellors</h2>
-          <p className="text-slate-500">Experienced professionals dedicated to your well-being.</p>
+          <p className="text-slate-500">Dedicated practitioners here to support your journey inward.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
