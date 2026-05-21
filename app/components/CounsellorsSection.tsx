@@ -31,7 +31,7 @@ export default function CounsellorsSection() {
                 <img src={counsellor.photo} alt={counsellor.name} className="w-full h-full object-cover" />
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-2">{counsellor.name}</h3>
-              <p className="text-teal-700 text-sm font-medium mb-8">{counsellor.specialization}</p>
+              <p className="text-sky-700 text-sm font-medium mb-8">{counsellor.specialization}</p>
               
               <Link href="/counsellors" className="bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 rounded-full px-6 py-2.5 text-sm font-medium transition-colors shadow-sm w-full">
                 View Profile

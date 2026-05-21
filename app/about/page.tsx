@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-[#FAFAF9] flex flex-col">
       <main className="flex-1 max-w-4xl mx-auto px-6 pt-32 pb-24">
-        <Link href="/" className="text-teal-600 flex items-center gap-2 mb-12 hover:underline">
+        <Link href="/" className="text-sky-500 flex items-center gap-2 mb-12 hover:underline">
           <ArrowLeft size={16} /> Back to Home
         </Link>
 
@@ -15,7 +15,7 @@ export default function AboutPage() {
         </h1>
 
         <div className="prose prose-lg text-slate-600">
-          <p className="text-2xl text-teal-800 font-['Instrument_Serif',serif] italic mb-8">
+          <p className="text-2xl text-sky-800 font-['Instrument_Serif',serif] italic mb-8">
             Not just coping. Transformation.
           </p>
 

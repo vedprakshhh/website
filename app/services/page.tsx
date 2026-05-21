@@ -60,16 +60,16 @@ const services = [
 ];
 
 const packages = [
-  { name: "4 Sessions / Month", price: "₹3,500 – ₹5,500", desc: "Weekly sessions for consistent emotional support and growth. Best for ongoing personal counselling.", color: "bg-teal-50 border-teal-200 text-teal-900" },
-  { name: "8-Session Healing Program", price: "₹8,000 – ₹15,000", desc: "A structured two-month deep-dive. Includes goal-setting, progress tracking, and an integrated approach across modalities.", color: "bg-teal-100 border-teal-300 text-teal-900" },
-  { name: "Meditation + Counselling Combo", price: "₹4,999+", desc: "Inner work paired with therapeutic guidance. Combines breath work, meditation, and counselling in a single integrated session series.", color: "bg-teal-900 border-teal-800 text-white" }
+  { name: "4 Sessions / Month", price: "₹3,500 – ₹5,500", desc: "Weekly sessions for consistent emotional support and growth. Best for ongoing personal counselling.", color: "bg-sky-50 border-sky-200 text-sky-900" },
+  { name: "8-Session Healing Program", price: "₹8,000 – ₹15,000", desc: "A structured two-month deep-dive. Includes goal-setting, progress tracking, and an integrated approach across modalities.", color: "bg-sky-100 border-sky-300 text-sky-900" },
+  { name: "Meditation + Counselling Combo", price: "₹4,999+", desc: "Inner work paired with therapeutic guidance. Combines breath work, meditation, and counselling in a single integrated session series.", color: "bg-sky-900 border-sky-800 text-white" }
 ];
 
 export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-[#FAFAF9] flex flex-col">
       <main className="flex-1 max-w-5xl mx-auto px-6 pt-32 pb-24">
-        <Link href="/" className="text-teal-600 flex items-center gap-2 mb-12 hover:underline">
+        <Link href="/" className="text-sky-500 flex items-center gap-2 mb-12 hover:underline">
           <ArrowLeft size={16} /> Back to Home
         </Link>
 
@@ -86,15 +86,15 @@ export default function ServicesPage() {
         {/* Individual Services */}
         <div className="space-y-8 mb-20">
           {services.map((svc, i) => (
-            <div key={i} className="bg-white p-8 md:p-10 rounded-3xl border border-slate-200 hover:border-teal-300 hover:shadow-md transition-all">
+            <div key={i} className="bg-white p-8 md:p-10 rounded-3xl border border-slate-200 hover:border-sky-300 hover:shadow-md transition-all">
               <div className="flex flex-col md:flex-row md:items-start gap-6">
-                <div className="bg-teal-50 text-teal-600 w-16 h-16 rounded-2xl flex items-center justify-center shrink-0">
+                <div className="bg-sky-50 text-sky-500 w-16 h-16 rounded-2xl flex items-center justify-center shrink-0">
                   {svc.icon}
                 </div>
                 <div className="flex-1">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-3">
                     <h2 className="text-2xl font-bold text-slate-900">{svc.title}</h2>
-                    <span className="bg-teal-50 text-teal-700 text-xs font-semibold px-3 py-1 rounded-full whitespace-nowrap">{svc.positioning}</span>
+                    <span className="bg-sky-50 text-sky-700 text-xs font-semibold px-3 py-1 rounded-full whitespace-nowrap">{svc.positioning}</span>
                   </div>
                   <div className="flex flex-wrap items-center gap-4 text-sm text-slate-500 mb-4">
                     <span className="flex items-center gap-1"><Clock size={14} /> {svc.duration}</span>
@@ -122,16 +122,16 @@ export default function ServicesPage() {
         </div>
 
         {/* Note */}
-        <div className="bg-teal-50 border border-teal-100 p-6 rounded-2xl flex gap-4 mb-12">
-          <Shield className="text-teal-600 shrink-0" size={24} />
+        <div className="bg-sky-50 border border-sky-100 p-6 rounded-2xl flex gap-4 mb-12">
+          <Shield className="text-sky-500 shrink-0" size={24} />
           <div>
-            <h3 className="font-bold text-teal-900 mb-2">Confidentiality & Safety</h3>
-            <p className="text-sm text-teal-800">All sessions are completely confidential. Anonymous counselling is available if you're not comfortable sharing your identity. This is a judgment-free space.</p>
+            <h3 className="font-bold text-sky-900 mb-2">Confidentiality & Safety</h3>
+            <p className="text-sm text-sky-800">All sessions are completely confidential. Anonymous counselling is available if you're not comfortable sharing your identity. This is a judgment-free space.</p>
           </div>
         </div>
 
         <div className="text-center">
-          <Link href="/book" className="inline-block bg-teal-600 text-white rounded-full px-10 py-4 text-lg font-bold hover:bg-teal-700 transition-colors shadow-sm">
+          <Link href="/book" className="inline-block bg-sky-500 text-white rounded-full px-10 py-4 text-lg font-bold hover:bg-sky-700 transition-colors shadow-sm">
             Book Your Session
           </Link>
         </div>

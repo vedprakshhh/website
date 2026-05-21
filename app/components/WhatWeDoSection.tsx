@@ -8,7 +8,7 @@ export default function WhatWeDoSection() {
       <div className="max-w-5xl mx-auto text-center">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
           <div className="flex flex-col items-center">
-            <div className="bg-teal-50 text-teal-600 p-6 rounded-full mb-6">
+            <div className="bg-sky-50 text-sky-500 p-6 rounded-full mb-6">
               <Heart size={32} />
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-2">Emotional Support</h3>
@@ -16,7 +16,7 @@ export default function WhatWeDoSection() {
           </div>
           
           <div className="flex flex-col items-center">
-            <div className="bg-teal-50 text-teal-600 p-6 rounded-full mb-6">
+            <div className="bg-sky-50 text-sky-500 p-6 rounded-full mb-6">
               <Sparkles size={32} />
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-2">Inner Work & Healing</h3>
@@ -24,7 +24,7 @@ export default function WhatWeDoSection() {
           </div>
           
           <div className="flex flex-col items-center">
-            <div className="bg-teal-50 text-teal-600 p-6 rounded-full mb-6">
+            <div className="bg-sky-50 text-sky-500 p-6 rounded-full mb-6">
               <Compass size={32} />
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-2">Self-Discovery</h3>

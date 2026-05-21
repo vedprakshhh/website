@@ -19,7 +19,7 @@ export default function WhyChooseUsSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-12 text-left max-w-2xl mx-auto">
           {reasons.map((reason) => (
             <div key={reason} className="flex items-center gap-3">
-              <CheckCircle2 className="text-teal-600 shrink-0" size={24} />
+              <CheckCircle2 className="text-sky-500 shrink-0" size={24} />
               <span className="text-slate-700 font-medium text-lg">{reason}</span>
             </div>
           ))}

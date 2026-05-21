@@ -15,7 +15,7 @@ export default function AboutSection() {
           Mindguide is a space for holistic emotional wellness and self-growth — where counselling meets inner work. Not just talk therapy, but guided transformation for the heart and mind.
         </p>
         
-        <Link href="/about" className="inline-flex items-center gap-2 text-teal-600 font-medium hover:text-teal-800 transition-colors">
+        <Link href="/about" className="inline-flex items-center gap-2 text-sky-500 font-medium hover:text-sky-800 transition-colors">
           Read More <ArrowRight size={18} />
         </Link>
       </div>

@@ -12,13 +12,13 @@ export default function HeroSection() {
             <span className="text-slate-900 font-bold text-xl tracking-tight">Mindguide</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
-            <Link href="/" className="text-slate-600 hover:text-teal-700 text-sm font-medium transition-colors">Home</Link>
-            <Link href="/about" className="text-slate-600 hover:text-teal-700 text-sm font-medium transition-colors">About</Link>
-            <Link href="/counsellors" className="text-slate-600 hover:text-teal-700 text-sm font-medium transition-colors">Counsellors</Link>
-            <Link href="/services" className="text-slate-600 hover:text-teal-700 text-sm font-medium transition-colors">Services</Link>
+            <Link href="/" className="text-slate-600 hover:text-sky-700 text-sm font-medium transition-colors">Home</Link>
+            <Link href="/about" className="text-slate-600 hover:text-sky-700 text-sm font-medium transition-colors">About</Link>
+            <Link href="/counsellors" className="text-slate-600 hover:text-sky-700 text-sm font-medium transition-colors">Counsellors</Link>
+            <Link href="/services" className="text-slate-600 hover:text-sky-700 text-sm font-medium transition-colors">Services</Link>
           </div>
           <div className="flex items-center gap-4">
-            <Link href="/book" className="bg-teal-600 rounded-full px-6 py-2.5 text-white text-sm font-medium hover:bg-teal-700 transition-colors shadow-sm">
+            <Link href="/book" className="bg-sky-500 rounded-full px-6 py-2.5 text-white text-sm font-medium hover:bg-sky-700 transition-colors shadow-sm">
               Book Session
             </Link>
           </div>
@@ -30,7 +30,7 @@ export default function HeroSection() {
         <h1 className="text-6xl md:text-7xl lg:text-8xl text-slate-900 tracking-tight font-['Instrument_Serif',serif] mb-6">
           Mindguide
         </h1>
-        <p className="text-2xl md:text-3xl text-teal-800 font-['Instrument_Serif',serif] mb-10 italic">
+        <p className="text-2xl md:text-3xl text-sky-800 font-['Instrument_Serif',serif] mb-10 italic">
           Feel. Heal. Become.
         </p>
         
@@ -39,10 +39,10 @@ export default function HeroSection() {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center gap-4">
-          <Link href="/book" className="bg-teal-600 rounded-full px-8 py-3.5 text-white text-base font-medium hover:bg-teal-700 transition-colors shadow-sm w-full sm:w-auto">
+          <Link href="/book" className="bg-sky-500 rounded-full px-8 py-3.5 text-white text-base font-medium hover:bg-sky-700 transition-colors shadow-sm w-full sm:w-auto">
             Book a Session
           </Link>
-          <Link href="/services" className="bg-white text-teal-700 rounded-full px-8 py-3.5 text-base font-medium hover:bg-teal-50 transition-colors shadow-sm border border-teal-100 w-full sm:w-auto">
+          <Link href="/services" className="bg-white text-sky-700 rounded-full px-8 py-3.5 text-base font-medium hover:bg-sky-50 transition-colors shadow-sm border border-sky-100 w-full sm:w-auto">
             Explore Services
           </Link>
         </div>
