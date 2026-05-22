@@ -20,7 +20,7 @@ export default function CounsellorsSection() {
     <section id="counsellors" className="bg-white py-24 px-6 border-b border-slate-100">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl text-slate-900 tracking-tight font-['Instrument_Serif',serif] mb-4">Meet the Counsellors</h2>
+          <h2 className="text-3xl md:text-5xl text-slate-900 tracking-tight font-['Instrument_Serif',serif] mb-4">Meet Your Psychologists</h2>
           <p className="text-slate-500">Dedicated practitioners here to support your journey inward.</p>
         </div>
 
@@ -31,7 +31,7 @@ export default function CounsellorsSection() {
                 <img src={counsellor.photo} alt={counsellor.name} className="w-full h-full object-cover" />
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-2">{counsellor.name}</h3>
-              <p className="text-sky-700 text-sm font-medium mb-8">{counsellor.specialization}</p>
+              <p className="text-emerald-700 text-sm font-medium mb-8">{counsellor.specialization}</p>
               
               <Link href="/counsellors" className="bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 rounded-full px-6 py-2.5 text-sm font-medium transition-colors shadow-sm w-full">
                 View Profile

@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+:root {
+  --mg-50: #e6f7f0;
+  --mg-100: #ccf0e2;
+  --mg-200: #99e1c5;
+  --mg-300: #66d2a8;
+  --mg-400: #33c38b;
+  --mg-500: #00B388;
+  --mg-600: #008f6d;
+  --mg-700: #006b52;
+  --mg-800: #004736;
+  --mg-900: #00241b;
+}
+
 body {
   background-color: #FAFAF9;
   /* Ivory / Off-white */

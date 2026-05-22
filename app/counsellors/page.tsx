@@ -6,12 +6,12 @@ export default function CounsellorsPage() {
   return (
     <div className="min-h-screen bg-[#FAFAF9] flex flex-col">
       <main className="flex-1 max-w-5xl mx-auto px-6 pt-32 pb-24">
-        <Link href="/" className="text-sky-500 flex items-center gap-2 mb-12 hover:underline">
+        <Link href="/" className="text-emerald-500 flex items-center gap-2 mb-12 hover:underline">
           <ArrowLeft size={16} /> Back to Home
         </Link>
 
         <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6 font-['Instrument_Serif',serif]">
-          Meet the Counsellors
+          Meet Your Psychologists
         </h1>
         <p className="text-xl text-slate-600 mb-16">Dedicated practitioners here to support your journey inward.</p>
 
@@ -24,7 +24,7 @@ export default function CounsellorsPage() {
             
             <div className="flex-1">
               <h2 className="text-3xl font-bold text-slate-900 mb-2">Gayathri Gurrapu</h2>
-              <p className="text-sky-700 font-medium mb-6 flex items-center gap-2">
+              <p className="text-emerald-700 font-medium mb-6 flex items-center gap-2">
                 <GraduationCap size={18} /> MSc Psychology | Holistic Emotional Wellness Practitioner
               </p>
               
@@ -49,9 +49,9 @@ export default function CounsellorsPage() {
                 </ul>
               </div>
 
-              <div className="bg-sky-50 rounded-xl p-4 flex items-start gap-3">
-                <Award className="text-sky-500 shrink-0 mt-1" size={20} />
-                <p className="text-sm text-sky-900">
+              <div className="bg-emerald-50 rounded-xl p-4 flex items-start gap-3">
+                <Award className="text-emerald-500 shrink-0 mt-1" size={20} />
+                <p className="text-sm text-emerald-900">
                   <span className="font-semibold block">Recognition:</span>
                   Awarded "Best Counsellor for Adolescents" by Voice for Girls (Zilla Parishad Boarding School), recognizing her impact in student mental health.
                 </p>
@@ -70,7 +70,7 @@ export default function CounsellorsPage() {
             
             <div className="flex-1">
               <h2 className="text-3xl font-bold text-slate-900 mb-2">Madurya Pathakoti</h2>
-              <p className="text-sky-700 font-medium mb-6 flex items-center gap-2">
+              <p className="text-emerald-700 font-medium mb-6 flex items-center gap-2">
                 <GraduationCap size={18} /> MA Psychology | Child Development Specialist
               </p>
               
@@ -93,9 +93,9 @@ export default function CounsellorsPage() {
                 </ul>
               </div>
 
-              <div className="bg-sky-50 rounded-xl p-4 flex items-start gap-3">
-                <Award className="text-sky-500 shrink-0 mt-1" size={20} />
-                <div className="text-sm text-sky-900">
+              <div className="bg-emerald-50 rounded-xl p-4 flex items-start gap-3">
+                <Award className="text-emerald-500 shrink-0 mt-1" size={20} />
+                <div className="text-sm text-emerald-900">
                   <span className="font-semibold block mb-1">Recognitions:</span>
                   <ul className="list-disc pl-4 space-y-1">
                     <li>Best Child Specialist – Unique Intelligence Clinic</li>

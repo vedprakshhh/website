@@ -7,7 +7,7 @@ const services = [
     icon: <Heart size={28} />,
     title: "Emotional Support / Venting Session",
     duration: "45 mins",
-    price: "₹499 – ₹799",
+    price: "₹499",
     ideal: "Loneliness, overthinking, emotional confusion, stress, heartbreak, burnout",
     description: "A space where you can simply be heard. No agenda, no diagnosis — just someone present with you as you process what you're feeling. Sometimes the most healing thing is being truly listened to.",
     positioning: "Entry-level — for anyone who needs a listening ear"
@@ -16,7 +16,7 @@ const services = [
     icon: <MessageCircle size={28} />,
     title: "Personal Counselling / Therapy",
     duration: "50–60 mins",
-    price: "₹1,000 – ₹1,800",
+    price: "₹999",
     ideal: "Emotional exploration, behavioural patterns, self-awareness, coping",
     description: "Your main therapeutic space. We explore emotional landscapes, identify recurring patterns, and build practical coping tools. Includes guided reflection and actionable insights you can carry into your week.",
     positioning: "Core offering — deep, consistent therapeutic work"
@@ -25,7 +25,7 @@ const services = [
     icon: <Sparkles size={28} />,
     title: "Deep Healing / Inner Work",
     duration: "75–90 mins",
-    price: "₹2,000 – ₹3,500",
+    price: "₹1,800",
     ideal: "Those ready for transformation beyond traditional talk therapy",
     description: "This is what sets this practice apart. We combine counselling with meditation, inner engineering concepts, breath awareness, and emotional release techniques. It's not just about managing symptoms — it's about rewiring your inner world.",
     positioning: "Premium — Holistic Emotional Healing & Inner Clarity"
@@ -34,7 +34,7 @@ const services = [
     icon: <Users size={28} />,
     title: "Relationship Counselling",
     duration: "60–75 mins",
-    price: "₹1,500 – ₹3,000",
+    price: "₹2,200",
     ideal: "Couples, communication issues, emotional disconnect, trust, premarital guidance",
     description: "Relationships are where our deepest patterns surface. Whether you're navigating conflict, rebuilding trust, or preparing for marriage — these sessions create a neutral space where both voices are heard and understood.",
     positioning: "High-demand — emotionally intensive couple work"
@@ -43,7 +43,7 @@ const services = [
     icon: <GraduationCap size={28} />,
     title: "Teen & Student Counselling",
     duration: "45–50 mins",
-    price: "₹500 – ₹1,000",
+    price: "₹800",
     ideal: "Exam anxiety, low confidence, emotional instability, career confusion, social anxiety",
     description: "The teenage and early-adult years are overwhelming. This is affordable, relatable support — a space where students can talk about pressure, identity, and the future without judgment.",
     positioning: "Accessible — priced for students who need support now"
@@ -52,24 +52,24 @@ const services = [
     icon: <Compass size={28} />,
     title: "Self-Discovery / Life Clarity",
     duration: "60 mins",
-    price: "₹1,200 – ₹2,500",
+    price: "₹1,200",
     ideal: "Understanding yourself, emotional intelligence, purpose, self-worth, identity",
     description: "A signature offering for those who feel lost in their own life. We work on self-understanding, emotional intelligence, and uncovering the patterns that keep you stuck. This is not advice — it's guided self-awareness.",
-    positioning: "Signature niche — for seekers, not just sufferers"
+    positioning: "Explore your inner world"
   }
 ];
 
 const packages = [
-  { name: "4 Sessions / Month", price: "₹3,500 – ₹5,500", desc: "Weekly sessions for consistent emotional support and growth. Best for ongoing personal counselling.", color: "bg-sky-50 border-sky-200 text-sky-900" },
-  { name: "8-Session Healing Program", price: "₹8,000 – ₹15,000", desc: "A structured two-month deep-dive. Includes goal-setting, progress tracking, and an integrated approach across modalities.", color: "bg-sky-100 border-sky-300 text-sky-900" },
-  { name: "Meditation + Counselling Combo", price: "₹4,999+", desc: "Inner work paired with therapeutic guidance. Combines breath work, meditation, and counselling in a single integrated session series.", color: "bg-sky-900 border-sky-800 text-white" }
+  { name: "4 Sessions / Month", price: "₹3,500", desc: "Weekly sessions for consistent emotional support and growth. Best for ongoing personal counselling.", color: "bg-emerald-50 border-emerald-200 text-emerald-900" },
+  { name: "8-Session Healing Program", price: "₹6,999", desc: "A structured two-month deep-dive. Includes goal-setting, progress tracking, and an integrated approach across modalities.", color: "bg-emerald-100 border-emerald-300 text-emerald-900" },
+  { name: "Meditation + Counselling Combo", price: "₹4,999", desc: "Inner work paired with therapeutic guidance. Combines breath work, meditation, and counselling — for 10 weeks.", color: "bg-emerald-900 border-emerald-800 text-white" }
 ];
 
 export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-[#FAFAF9] flex flex-col">
       <main className="flex-1 max-w-5xl mx-auto px-6 pt-32 pb-24">
-        <Link href="/" className="text-sky-500 flex items-center gap-2 mb-12 hover:underline">
+        <Link href="/" className="text-emerald-500 flex items-center gap-2 mb-12 hover:underline">
           <ArrowLeft size={16} /> Back to Home
         </Link>
 
@@ -86,19 +86,19 @@ export default function ServicesPage() {
         {/* Individual Services */}
         <div className="space-y-8 mb-20">
           {services.map((svc, i) => (
-            <div key={i} className="bg-white p-8 md:p-10 rounded-3xl border border-slate-200 hover:border-sky-300 hover:shadow-md transition-all">
+            <div key={i} className="bg-white p-8 md:p-10 rounded-3xl border border-slate-200 hover:border-emerald-300 hover:shadow-md transition-all">
               <div className="flex flex-col md:flex-row md:items-start gap-6">
-                <div className="bg-sky-50 text-sky-500 w-16 h-16 rounded-2xl flex items-center justify-center shrink-0">
+                <div className="bg-emerald-50 text-emerald-500 w-16 h-16 rounded-2xl flex items-center justify-center shrink-0">
                   {svc.icon}
                 </div>
                 <div className="flex-1">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-3">
                     <h2 className="text-2xl font-bold text-slate-900">{svc.title}</h2>
-                    <span className="bg-sky-50 text-sky-700 text-xs font-semibold px-3 py-1 rounded-full whitespace-nowrap">{svc.positioning}</span>
+                    <span className="bg-emerald-50 text-emerald-700 text-xs font-semibold px-3 py-1 rounded-full whitespace-nowrap">{svc.positioning}</span>
                   </div>
                   <div className="flex flex-wrap items-center gap-4 text-sm text-slate-500 mb-4">
                     <span className="flex items-center gap-1"><Clock size={14} /> {svc.duration}</span>
-                    <span className="flex items-center gap-1 font-semibold text-slate-800"><IndianRupee size={14} /> {svc.price}</span>
+                    <span className="flex items-center gap-1 font-semibold text-slate-800">{svc.price}</span>
                   </div>
                   <p className="text-slate-600 mb-3">{svc.description}</p>
                   <p className="text-slate-400 text-sm"><span className="font-medium text-slate-500">Ideal for:</span> {svc.ideal}</p>
@@ -122,16 +122,16 @@ export default function ServicesPage() {
         </div>
 
         {/* Note */}
-        <div className="bg-sky-50 border border-sky-100 p-6 rounded-2xl flex gap-4 mb-12">
-          <Shield className="text-sky-500 shrink-0" size={24} />
+        <div className="bg-emerald-50 border border-emerald-100 p-6 rounded-2xl flex gap-4 mb-12">
+          <Shield className="text-emerald-500 shrink-0" size={24} />
           <div>
-            <h3 className="font-bold text-sky-900 mb-2">Confidentiality & Safety</h3>
-            <p className="text-sm text-sky-800">All sessions are completely confidential. Anonymous counselling is available if you're not comfortable sharing your identity. This is a judgment-free space.</p>
+            <h3 className="font-bold text-emerald-900 mb-2">Confidentiality & Safety</h3>
+            <p className="text-sm text-emerald-800">All sessions are completely confidential. Anonymous counselling is available if you're not comfortable sharing your identity. This is a judgment-free space.</p>
           </div>
         </div>
 
         <div className="text-center">
-          <Link href="/book" className="inline-block bg-sky-500 text-white rounded-full px-10 py-4 text-lg font-bold hover:bg-sky-700 transition-colors shadow-sm">
+          <Link href="/book" className="inline-block bg-emerald-500 text-white rounded-full px-10 py-4 text-lg font-bold hover:bg-emerald-700 transition-colors shadow-sm">
             Book Your Session
           </Link>
         </div>
