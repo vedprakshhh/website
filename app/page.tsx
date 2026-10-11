@@ -4,6 +4,8 @@ import AboutSection from './components/AboutSection';
 import CounsellorsSection from './components/CounsellorsSection';
 import ServicesSection from './components/ServicesSection';
 import WhyChooseUsSection from './components/WhyChooseUsSection';
+import TestimonialsSection from './components/TestimonialsSection';
+import SocialConnectSection from './components/SocialConnectSection';
 import BookingCTASection from './components/BookingCTASection';
 import Footer from './components/Footer';
 
@@ -16,6 +18,8 @@ export default function Home() {
       <CounsellorsSection />
       <ServicesSection />
       <WhyChooseUsSection />
+      <TestimonialsSection />
+      <SocialConnectSection />
       <BookingCTASection />
       <Footer />
     </div>

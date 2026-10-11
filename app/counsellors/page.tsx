@@ -30,19 +30,19 @@ export default function CounsellorsPage() {
               
               <div className="prose prose-slate mb-6">
                 <p>
-                  Gayathri Gurrapu is a holistic emotional wellness and self-growth practitioner with a strong academic foundation in BA Psychology, PGD in Counselling Psychology, and MSc Psychology. Her approach goes beyond traditional talk therapy — she integrates counselling with meditation, breath awareness, inner engineering concepts, and emotional release techniques.
+                  Gayathri Gurrapu is a holistic emotional wellness and self-growth practitioner with a strong academic foundation in BA Psychology, PGD in Counselling Psychology, and MSc Psychology. Her approach goes beyond traditional talk therapy, she integrates counselling with meditation, breath awareness, inner engineering concepts, and emotional release techniques.
                 </p>
                 <p>
-                  Her style is warm yet grounded — creating a space where clients feel safe to be vulnerable while also being guided toward real transformation. She believes the best therapy doesn't just help you cope; it helps you understand yourself.
+                  Her style is warm yet grounded, creating a space where clients feel safe to be vulnerable while also being guided toward real transformation. She believes the best therapy doesn't just help you cope; it helps you understand yourself.
                 </p>
               </div>
 
               <div className="mb-6">
                 <h3 className="font-semibold text-slate-900 mb-2">Primary Focus Areas:</h3>
                 <ul className="list-disc pl-5 text-slate-600 space-y-1">
-                  <li>Emotional support & venting — a space to be heard</li>
+                  <li>Emotional support & venting, a space to be heard</li>
                   <li>Personal counselling & guided self-reflection</li>
-                  <li>Deep healing — combining therapy with inner work</li>
+                  <li>Deep healing, combining therapy with inner work</li>
                   <li>Self-discovery & life clarity</li>
                   <li>Teen & student emotional wellness</li>
                   <li>Relationship counselling</li>
@@ -62,21 +62,21 @@ export default function CounsellorsPage() {
             </div>
           </div>
 
-          {/* Madurya Profile */}
+          {/* Madhurya Profile */}
           <div className="flex flex-col md:flex-row gap-12 items-start bg-white p-8 md:p-12 rounded-3xl border border-slate-200">
             <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shrink-0 border-4 border-slate-50 shadow-md">
-              <img src="/madhurya.jpeg" alt="Madurya Pathakoti" className="w-full h-full object-cover" />
+              <img src="/madhurya.jpeg" alt="Madhurya Pathakoti" className="w-full h-full object-cover" />
             </div>
             
             <div className="flex-1">
-              <h2 className="text-3xl font-bold text-slate-900 mb-2">Madurya Pathakoti</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-2">Madhurya Pathakoti</h2>
               <p className="text-emerald-700 font-medium mb-6 flex items-center gap-2">
                 <GraduationCap size={18} /> MA Psychology | Child Development Specialist
               </p>
               
               <div className="prose prose-slate mb-6">
                 <p>
-                  Madurya Pathakoti is a highly experienced psychology professional with 5 years of experience in counselling and research. She holds qualifications in BA Psychology, PGD in Child Psychology, and MA Psychology.
+                  Madhurya Pathakoti is a highly experienced psychology professional with 5 years of experience in counselling and research. She holds qualifications in BA Psychology, PGD in Child Psychology, and MA Psychology.
                 </p>
                 <p>
                   Her approach is friendly and CBT-based (Cognitive Behavioural Therapy), making her sessions both approachable and evidence-based. She is dedicated to helping children and families build healthier behavioural patterns and emotional understanding.
@@ -98,8 +98,8 @@ export default function CounsellorsPage() {
                 <div className="text-sm text-emerald-900">
                   <span className="font-semibold block mb-1">Recognitions:</span>
                   <ul className="list-disc pl-4 space-y-1">
-                    <li>Best Child Specialist – Unique Intelligence Clinic</li>
-                    <li>Most Reliable Researcher – Knowledge Bridge Consultancy</li>
+                    <li>Best Child Specialist - Unique Intelligence Clinic</li>
+                    <li>Most Reliable Researcher - Knowledge Bridge Consultancy</li>
                   </ul>
                 </div>
               </div>

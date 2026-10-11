@@ -1,28 +1,45 @@
 "use client";
 
-import { CheckCircle2 } from 'lucide-react';
+import { ShieldCheck, Sparkles, Award, Eye, Video } from "lucide-react";
+import Reveal from "./Reveal";
 
 const reasons = [
-  "Safe & confidential space",
-  "Holistic multi-modal approach",
-  "Experienced practitioner",
-  "Anonymous support available",
-  "Affordable — starting at ₹499"
+  { icon: ShieldCheck, text: "Safe & confidential space" },
+  { icon: Sparkles, text: "Holistic multi-modal approach" },
+  { icon: Award, text: "Experienced practitioner" },
+  { icon: Eye, text: "Anonymous support available" },
+  { icon: Video, text: "Flexible online sessions" },
 ];
 
 export default function WhyChooseUsSection() {
   return (
-    <section className="bg-white py-24 px-6 border-b border-slate-100">
+    <section className="bg-white py-20 md:py-28 px-6 relative overflow-hidden">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl md:text-5xl text-slate-900 tracking-tight font-['Instrument_Serif',serif] mb-12">Why Choose Us</h2>
-        
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-12 text-left max-w-2xl mx-auto">
-          {reasons.map((reason) => (
-            <div key={reason} className="flex items-center gap-3">
-              <CheckCircle2 className="text-emerald-500 shrink-0" size={24} />
-              <span className="text-slate-700 font-medium text-lg">{reason}</span>
-            </div>
-          ))}
+        <Reveal>
+          <span className="inline-block text-xs tracking-widest uppercase text-emerald-600 font-semibold mb-4">
+            Why Mind Guide
+          </span>
+          <h2 className="text-3xl md:text-5xl text-slate-900 tracking-tight font-serif mb-4">
+            Why Choose Us
+          </h2>
+        </Reveal>
+
+        <div className="flex flex-wrap justify-center gap-5 max-w-3xl mx-auto mt-12">
+          {reasons.map((reason, i) => {
+            const Icon = reason.icon;
+            return (
+              <Reveal key={reason.text} delay={i * 0.1}>
+                <div className="flex flex-col items-center gap-3 p-6 rounded-2xl bg-[#FAFAF9] card-lift hover:shadow-lg w-[160px] sm:w-[180px]">
+                  <div className="w-12 h-12 bg-emerald-50 text-emerald-500 rounded-xl flex items-center justify-center">
+                    <Icon size={24} />
+                  </div>
+                  <span className="text-slate-700 font-medium text-sm text-center leading-snug">
+                    {reason.text}
+                  </span>
+                </div>
+              </Reveal>
+            );
+          })}
         </div>
       </div>
     </section>

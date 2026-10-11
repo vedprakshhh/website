@@ -1,52 +1,61 @@
 import Link from 'next/link';
-import { ArrowLeft, Heart, MessageCircle, Sparkles, Users, GraduationCap, Compass, Clock, IndianRupee, Shield } from 'lucide-react';
+import { ArrowLeft, Heart, MessageCircle, Sparkles, Users, GraduationCap, Compass, Clock, IndianRupee, Shield, HelpCircle } from 'lucide-react';
 import Footer from '../components/Footer';
 
 const services = [
+  {
+    icon: <HelpCircle size={28} />,
+    title: "Consultation",
+    duration: "30 mins",
+    price: "₹399",
+    ideal: "Not sure whether you need therapy, counselling, assessment, or simply guidance",
+    description: "Our Consultation is designed as a first step. During the consultation, you can openly talk about what you are experiencing, your concerns, difficulties, or current situation. The professional will help you understand your concerns and discuss what kind of support may be appropriate for you. This can include counselling, psychological therapy, further psychological assessment, a specific intervention, or simply guidance and support at this stage. The goal is not to label you or immediately put you into therapy. It is to understand your situation and help you identify the right next step. The consultation helps us understand your concerns and identify the most appropriate next step.",
+    positioning: "First step, clarity before commitment"
+  },
   {
     icon: <Heart size={28} />,
     title: "Emotional Support / Venting Session",
     duration: "45 mins",
     price: "₹499",
     ideal: "Loneliness, overthinking, emotional confusion, stress, heartbreak, burnout",
-    description: "A space where you can simply be heard. No agenda, no diagnosis — just someone present with you as you process what you're feeling. Sometimes the most healing thing is being truly listened to.",
-    positioning: "Entry-level — for anyone who needs a listening ear"
+    description: "A space where you can simply be heard. No agenda, no diagnosis, just someone present with you as you process what you're feeling. Sometimes the most healing thing is being truly listened to.",
+    positioning: "Entry-level, for anyone who needs a listening ear"
   },
   {
     icon: <MessageCircle size={28} />,
     title: "Personal Counselling / Therapy",
-    duration: "50–60 mins",
+    duration: "50-60 mins",
     price: "₹999",
     ideal: "Emotional exploration, behavioural patterns, self-awareness, coping",
     description: "Your main therapeutic space. We explore emotional landscapes, identify recurring patterns, and build practical coping tools. Includes guided reflection and actionable insights you can carry into your week.",
-    positioning: "Core offering — deep, consistent therapeutic work"
+    positioning: "Core offering, deep, consistent therapeutic work"
   },
   {
     icon: <Sparkles size={28} />,
     title: "Deep Healing / Inner Work",
-    duration: "75–90 mins",
+    duration: "75-90 mins",
     price: "₹1,800",
     ideal: "Those ready for transformation beyond traditional talk therapy",
-    description: "This is what sets this practice apart. We combine counselling with meditation, inner engineering concepts, breath awareness, and emotional release techniques. It's not just about managing symptoms — it's about rewiring your inner world.",
-    positioning: "Premium — Holistic Emotional Healing & Inner Clarity"
+    description: "This is what sets this practice apart. We combine counselling with meditation, inner engineering concepts, breath awareness, and emotional release techniques. It's not just about managing symptoms, it's about rewiring your inner world.",
+    positioning: "Premium, Holistic Emotional Healing & Inner Clarity"
   },
   {
     icon: <Users size={28} />,
     title: "Relationship Counselling",
-    duration: "60–75 mins",
+    duration: "60-75 mins",
     price: "₹2,200",
     ideal: "Couples, communication issues, emotional disconnect, trust, premarital guidance",
-    description: "Relationships are where our deepest patterns surface. Whether you're navigating conflict, rebuilding trust, or preparing for marriage — these sessions create a neutral space where both voices are heard and understood.",
-    positioning: "High-demand — emotionally intensive couple work"
+    description: "Relationships are where our deepest patterns surface. Whether you're navigating conflict, rebuilding trust, or preparing for marriage, these sessions create a neutral space where both voices are heard and understood.",
+    positioning: "High-demand, emotionally intensive couple work"
   },
   {
     icon: <GraduationCap size={28} />,
     title: "Teen & Student Counselling",
-    duration: "45–50 mins",
+    duration: "45-50 mins",
     price: "₹800",
     ideal: "Exam anxiety, low confidence, emotional instability, career confusion, social anxiety",
-    description: "The teenage and early-adult years are overwhelming. This is affordable, relatable support — a space where students can talk about pressure, identity, and the future without judgment.",
-    positioning: "Accessible — priced for students who need support now"
+    description: "The teenage and early-adult years are overwhelming. This is affordable, relatable support, a space where students can talk about pressure, identity, and the future without judgment.",
+    positioning: "Accessible, priced for students who need support now"
   },
   {
     icon: <Compass size={28} />,
@@ -54,15 +63,15 @@ const services = [
     duration: "60 mins",
     price: "₹1,200",
     ideal: "Understanding yourself, emotional intelligence, purpose, self-worth, identity",
-    description: "A signature offering for those who feel lost in their own life. We work on self-understanding, emotional intelligence, and uncovering the patterns that keep you stuck. This is not advice — it's guided self-awareness.",
+    description: "A signature offering for those who feel lost in their own life. We work on self-understanding, emotional intelligence, and uncovering the patterns that keep you stuck. This is not advice, it's guided self-awareness.",
     positioning: "Explore your inner world"
   }
 ];
 
 const packages = [
   { name: "4 Sessions / Month", price: "₹3,500", desc: "Weekly sessions for consistent emotional support and growth. Best for ongoing personal counselling.", color: "bg-emerald-50 border-emerald-200 text-emerald-900" },
-  { name: "8-Session Healing Program", price: "₹6,999", desc: "A structured two-month deep-dive. Includes goal-setting, progress tracking, and an integrated approach across modalities.", color: "bg-emerald-100 border-emerald-300 text-emerald-900" },
-  { name: "Meditation + Counselling Combo", price: "₹4,999", desc: "Inner work paired with therapeutic guidance. Combines breath work, meditation, and counselling — for 10 weeks.", color: "bg-emerald-900 border-emerald-800 text-white" }
+  { name: "8 Sessions / Month", price: "₹6,999", desc: "A structured monthly deep-dive of 8 sessions. Includes goal-setting, progress tracking, and an integrated approach across modalities.", color: "bg-emerald-100 border-emerald-300 text-emerald-900" },
+  { name: "Meditation + Counselling Combo", price: "₹4,999", desc: "Inner work paired with therapeutic guidance. Combines breath work, meditation, and counselling, 8 sessions per month.", color: "bg-emerald-900 border-emerald-800 text-white" }
 ];
 
 export default function ServicesPage() {
@@ -77,7 +86,7 @@ export default function ServicesPage() {
           Services & Pricing
         </h1>
         <p className="text-xl text-slate-600 mb-6 max-w-2xl">
-          Every session is designed for where you are right now — whether you just need to vent, or you're ready for deep inner transformation.
+          Every session is designed for where you are right now, whether you just need to vent, or you're ready for deep inner transformation.
         </p>
         <p className="text-slate-500 text-sm mb-16 max-w-2xl italic">
           All sessions are online. In-person sessions coming soon.

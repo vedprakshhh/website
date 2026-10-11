@@ -55,7 +55,7 @@ export default function PhilosophySection() {
             <div>
               <p className="text-white/40 text-xs tracking-widest uppercase mb-4">Multi-Modal Integration</p>
               <p className="text-white/70 text-base md:text-lg leading-relaxed">
-                We believe the deepest healing happens when multiple approaches work together. We blend counselling with meditation, breath awareness, inner engineering, and emotional release — translating insight into lasting transformation.
+                We believe the deepest healing happens when multiple approaches work together. We blend counselling with meditation, breath awareness, inner engineering, and emotional release, translating insight into lasting transformation.
               </p>
             </div>
           </motion.div>
